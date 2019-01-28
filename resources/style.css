@@ -10,5 +10,12 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
-  
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
 }
