@@ -1,7 +1,10 @@
+
+
+
+/* universal style */
+
 header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+
   display: flex;
   position: fixed;
   align-items: center;
@@ -10,6 +13,9 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
+  font-family: 'Verdana';
+  font-size: 14px;
+  font-weight: bold;
 
 }
 
@@ -31,6 +37,53 @@ header {
 }
 
 header nav {
-  padding-right: 40px; 
+  padding-right: 40px;
+
+}
+
+/* Main Content */
+
+.content{
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+  top: 80px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+/* large column */
+
+.column.large {
+  width: 630px;
+}
+
+.lead-story .image-content {
+  background-image: url("resources/images/img-story-1.png");
+}
+
+/* medium column */
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.image-content {
 
 }
