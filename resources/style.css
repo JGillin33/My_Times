@@ -3,6 +3,15 @@
 
 /* universal style */
 
+.image-content {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 header {
 
   display: flex;
@@ -71,7 +80,12 @@ div {
 }
 
 .lead-story .image-content {
-  background-image: url("resources/images/img-story-1.png");
+  background-image: url(resources/images/img-story-main.png);
+background-color: black;
+  width: 630;
+  margin-top: 10;
+  font-size: 40;
+  text-align: left;
 }
 
 /* medium column */
